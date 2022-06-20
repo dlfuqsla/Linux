@@ -6,6 +6,11 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 #include <stdbool.h>							// boolean 타입의 true를 사용하기 위해 stdbool.h을 인클루드함.
+//***** 다음시간에 고민/탐구 해보세요 *****
+//***** 1.true의 본질은 무엇일까요? hint) while(true)랑 while(1)은 무슨차이? *****
+//***** 2.scanf() fgets() gets()의 차이는?  *****
+//***** 3.현재 이 프로세스의 do_writer()의 입력값과 do_reader()의 출력값이 다른이유(2번 개행이 되어서 출력됨)   *****
+//***** 4.매직넘버란 무엇이고 이 코드에서 사용된 매직넘버는?   *****
 
 #define FIFO_FILENAME  		"./testfifo"				// fifo파일이 생성될 경로를 지정하는 부분
 
